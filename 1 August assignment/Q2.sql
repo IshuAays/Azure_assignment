@@ -1,0 +1,1 @@
+SELECT concat(first_name,' ',last_name) as Name , gender as Gender from employees WHERE (first_name = 'Aamod' AND last_name = 'Radwan') OR (first_name = 'Arve' AND last_name = 'Erde') limit 2;
